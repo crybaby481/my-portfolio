@@ -401,3 +401,20 @@ nav ul .bi{
       margin-left: 0px;
 }
 }
+@media  (max-width: 350px) {
+
+nav ul {
+   
+   position: fixed;
+   right: 0;
+   top: 0;
+   height: 100vh;
+   width: 300px;
+   padding-top: 50px;
+   background: #ff004f;
+   transition:  1s;
+}
+.coloum-2 p {
+    font-size: 12px;
+}
+}
